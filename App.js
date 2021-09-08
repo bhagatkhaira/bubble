@@ -60,23 +60,23 @@ const App = (props) => {
     )
   }
 
-  if(loggedIn == false){
+  // if(loggedIn == false){
     
 
-    return (
+  //   return (
     
 
     
-    <NavigationContainer>
-       <Stack.Navigator initialRouteName = "Landing">
-          <Stack.Screen name ="Landing" component= { LandingScreen} options = {{ headerShown : false}}/>
-          <Stack.Screen name ="Register" component= { RegisterScreen} />
-          <Stack.Screen name ="Login" component= { LoginScreen} />
+  //   <NavigationContainer>
+  //      <Stack.Navigator initialRouteName = "Landing">
+  //         <Stack.Screen name ="Landing" component= { LandingScreen} options = {{ headerShown : false}}/>
+  //         <Stack.Screen name ="Register" component= { RegisterScreen} />
+  //         <Stack.Screen name ="Login" component= { LoginScreen} />
 
-       </Stack.Navigator>
-    </NavigationContainer>
-  );
-  }
+  //      </Stack.Navigator>
+  //   </NavigationContainer>
+  // );
+  // }
   return (
    
 
